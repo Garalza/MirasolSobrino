@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport", content="width=device-width, initial-scale=1.0">
+    <title>My Personal Information Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5032548451.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/llogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>INFOTECH STUDENT</p>
+                <hi>Hey there, I'm <span><strong>Mirasol</strong></span><br>,an IT student at Northwest Samar State University. 
+                    <br>Diving deep into the world of technology<br> with enthusiasm and determination.</hi>
+            </div>
+        </div>
+    </div>
+<!------------------About------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/formal-pic.jpg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Mirasol Garalza Sobrino, a twenty-one-year-old lady
+                        residing in Purok-1, Brgy. San Rufino. Born on December 10, 2002.
+                         Currently, I'm a second-year Information
+                         Technology student at Northwest Samar State University (NwSSU). 
+                         As I delve deeper into this program, I'm discovering new passions and embracing the
+                          idea that this journey might just be my destiny. Despite my lack of experience
+                           in this field, I am hopeful that with the guidance of my professors, 
+                           I'll become proficient in IT someday.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('family')">Skills</p>
+                        <p class="tab-links" onclick="opentab('talent')">Talent</p>
+                        <p class="tab-links" onclick="opentab('achievement')">Achievement</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="family">
+                        <ul>
+                            <li><span>HTML and CSS:</span><br>35%</li>
+                            <li><span>Python:</span><br>45%</li>
+                            <li><span>JavaScript:</span><br>35%<br></li>
+                            <li><span>Java:</span><br>35%<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="talent">
+                        <ul>
+                            <li><span>Singing</span><br>A Song Composer</li>
+                            <li><span>Dancing</span><br>A choreoghraper</li>
+                            <li><span>Photography</span><br>A Editor</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievement">
+                        <ul>
+                            <li><span>Picture Writing Competiton</span><br>A 2nd placer in competion</li>
+                            <li><span>Honor</span><br>In Elementary Level</li>
+                            <li><span>Achiever</span><br>Junior High School<br>Senior High School</li>
+                            <li><span>TESDA Certificate</span><br>Completed the NCIII Bookkeeping Certification.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------education----------- -->
+    <div id="education">
+        <div class="container">
+            <h1 class="sub-title">My Education</h1>
+            <div class="educations-list">
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>Elementary School</h2>
+                    <p>I graduated from Tarabucan Central Elementary School  
+                        in the academic year 2015-2016, where I consistently 
+                        achieved honors and demonstrated competitiveness in academic excellence.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>Senior High School</h2>
+                    <p>I graduated from Calbayog City National High School with a specialization
+                         in Accountancy, Business, and Management (ABM) in the year 2020-2022, 
+                         where I distinguished myself as one of the top achievers in our batch.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>University Name</h2>
+                    <p>I'm currently in my second year at Northwest Samar State University, 
+                        a well-known and competitive school in Samar.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------------hobbies---------------- -->
+    <div id="hobbies">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="hobby-list">
+                <div class="hobby">
+                    <img src="images/guitar playing.jpg">
+                    <div class="layer">
+                        <h3>Playing Guitar</h3>
+                        <p>I like singing while playing a guitar and making my own song.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="hobby">
+                    <img src="images/books reading.jpg">
+                    <div class="layer">
+                        <h3>Reading Books</h3>
+                        <p>I like reading stories.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="hobby">
+                    <img src="images/singing and dancing.jpg">
+                    <div class="layer">
+                        <h3>Singing and Dancing</h3>
+                        <p>I like singing and dancing a lot.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -----------Contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>mirasolsobrino1210@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>09468300372</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/mirasol.sobrinogaralza/">
+                            <i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@miracle_soul?lang=en">
+                            <i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/mira_sobrino/?hl=en">
+                            <i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="images/My Picture.pdf" download class="btn btn2">Download Picture</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Mirasol Personal Information <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }      
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxH4qttU5blxQWJjxMqsR01zCsxiWYfVhe5Nc1TN9jvrH9ypZ4aRcWDUibT_pIJluyC/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+</body>
+</html>
